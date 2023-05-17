@@ -24,7 +24,7 @@ Canvas'taki ödev sayfanız, bu projeyi göndermek için talimatlar içeriyor. B
 
 - `validateUserId()`
 
-  - bu ara yazılım, url'de bir `id` parametresi içeren tüm kullanıcı uç noktaları için kullanılacaktır. (örnek: `/api/users/:id` ve bu kimliğe sahip bir kullanıcı olduğundan emin olmak için veritabanını kontrol etmelidir.
+  - bu ara yazılım, url'de bir `id` parametresi içeren tüm kullanıcı uç noktaları için kullanılacaktır. (örnek: `/api/users/:id` ve bu kimliğe sahip bir kullanıcı olduğundan emin olmak için veritabanını kontrol etmelidir.)
   - `id` parametresi geçerliyse, kullanıcı nesnesini `req.user` olarak saklayın ve isteğin devam etmesine izin verin
   - `id` parametresi veritabanındaki herhangi bir kullanıcı kimliğiyle eşleşmiyorsa, `404` durumu ve `{ mesaj: "kullanıcı bulunamadı" }` ile yanıt verin
 
