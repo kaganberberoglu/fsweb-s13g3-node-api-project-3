@@ -46,7 +46,7 @@ describe('server.js', () => {
     }, 750)
     test('[5] id yoksa doğru hata mesajı', async () => {
       let res = await request(server).get('/api/users/111')
-      expect(res.body.message).toMatch(/bulunamadı/i)
+      expect(res.body.message).toMatch(/user not found/i)
     }, 750)
   })
   describe('[POST] /api/users', () => {
